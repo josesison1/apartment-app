@@ -1,0 +1,68 @@
+@import 'bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400&family=Permanent+Marker&display=swap');
+
+body {
+    font-family: 'Barlow Condensed',
+        sans-serif;
+    background-color: rgb(220, 229, 242);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Barlow Condensed',
+        sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.header {
+    width: 100%;
+    height: 230px;
+    display: inline-block;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1516501312919-d0cb0b7b60b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1904&q=80);
+}
+
+.headertext {
+    width: 60%;
+    border: 1px solid rgb(95, 92, 92);
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    opacity: 0.8;
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.nav {
+    font-size: 18px;
+    display: inline-flex;
+    justify-content: right;
+}
+
+#navlink {
+    border: 1px solid white;
+    background-color: rgb(180, 209, 235);
+    border-radius: 8px;
+    margin: 10px 10px 10px 10px;
+}
+
+.navi {
+    text-align: center;
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.homecontent {
+    margin-bottom: 30px;
+}
+
+.card-group {
+    width: 80%;
+    display: inline-flex;
+    justify-content: center;
+}
